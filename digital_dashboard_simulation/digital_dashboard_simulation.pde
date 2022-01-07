@@ -19,7 +19,7 @@ void setup()
 {
   size(1200,800);
   frameRate(60);
-  
+
   select = JOptionPane.showInputDialog("Please enter 1 for the BMW, 2 for the F150, or 3 to exit.");
   int n = Integer.parseInt(select);
   if(n == 1)
@@ -85,8 +85,8 @@ void draw()
     conFuelGraph.setData(conFuel);
     avgFuelGraph.showCategoryAxis(false);
     conFuelGraph.showCategoryAxis(false);
-    avgFuelGraph.draw(100,550,500,180);
-    conFuelGraph.draw(700,550,500,180);
+    avgFuelGraph.draw(75,550,500,180);
+    conFuelGraph.draw(625,550,500,180);
     println(vehicle.trip.totalTravelledDistance + "   " + vehicle.fuel.consumedFuel);
     sensor.readNext(); 
   }
