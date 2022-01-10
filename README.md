@@ -1,5 +1,5 @@
 ## Digital-Dashboard-Simulation
-Simple digital car dashboard that displays data extracted from an excel file. 
+Simple digital car dashboard that displays data extracted from a CSV file. 
 
 ## Installation
 1. Clone the repository from github using the following command:
