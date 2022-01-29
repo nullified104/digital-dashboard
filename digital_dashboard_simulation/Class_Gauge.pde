@@ -45,11 +45,11 @@ class Gauge
     fill(255);
     textAlign(CENTER,CENTER);
     textSize(20);
-    text("ODOMETER: ",320,465);
+    text("Odometer: ",314,465);
     text("KM", 455,465);
     text("Fuel Economy: ",330,505);
     text("KM/LITER", 510,505);
-    text("RANGE: ", 670,465);
+    text("Range: ", 670,465);
     text("KM", 800,465);;
     text("Fuel Consumption: ", 720,505);
     text("LITER/(100 KM)", 930,505);
@@ -138,7 +138,7 @@ class Gauge
     avgFuelGraph.setBarColour(color(250,100,20,200));
     avgFuelGraph.setBarGap(4);
     textSize(15);
-    text("Average Fuel Economy (km/liter) over time (sec)",375,750);
+    text("Average Fuel Economy (km/liter) over time (sec)",355,750);
     
     conFuelGraph.setMinValue(0);
     conFuelGraph.setMaxValue(30);
@@ -148,6 +148,6 @@ class Gauge
     conFuelGraph.setBarColour(color(250,100,20,200));
     conFuelGraph.setBarGap(4);
     textSize(15);
-    text("Fuel Consumption (liter) over time (liter/sec)",950,750);
+    text("Fuel Consumption (liter) over time (liter/sec)",875,750);
   }
 }
